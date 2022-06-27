@@ -1,0 +1,12 @@
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="image" [alt]="name" style="width: 10em; height:10em">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+          <p class="card-text">{{description}}</p>
+          <div class="row">
+            <h2>{{price | currency: "BRL"}}</h2>
+            <a href="#" class="col btn btn-success m-2">Comprar</a>
+          </div>
+        </div>
+      </div>

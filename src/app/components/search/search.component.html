@@ -1,0 +1,17 @@
+<div class="form-floating mb-3" style="background-color: cornflowerblue;">
+  <div>
+    <h1>Filters:</h1>
+  </div>
+  <div class="form-floating">
+      <input type="text" class="form-control"  [(ngModel)]="searchName" id="floatingInput" placeholder="Product Name">
+      <label for="floatingInput">Product name</label>
+  </div>
+  <div class="form-floating">
+    <input type="text" class="form-control" [(ngModel)]="searchPriceFrom" id="minPrice" placeholder="Price from">
+    <label for="minPrice">Price from: </label>
+  </div>
+  <div class="form-floating">
+    <input type="text" class="form-control" [(ngModel)]="searchPriceTo" id="maxPrice" placeholder="Price to">
+    <label for="maxPrice">Price to: </label>
+  </div>
+</div>
